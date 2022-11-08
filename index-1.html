@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airtable form practical</title>
+
+    <Style>
+        body {
+            width: 500px;
+            margin-bottom: 10px;
+            background-color: antiquewhite;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        input{
+            padding: 1px 5px;
+            margin-top: 10px;
+            width: 500px;
+        }
+        fieldset {
+            background-color: aquamarine;
+        }
+        label{
+            
+        }
+    </Style>
+</head>
+
+<body>
+    <form action=""></form>
+    <div>
+        <fieldset>
+        <img src="./IMG-20191011-WA0012.jpg" height="250px" width="300px" alt="LOGO">
+        <h1>Project Tracker</h1>
+        <p>Please give us a feedback</p>
+        </fieldset>
+    </div>
+
+    <form action="" method="post" class="form-container">
+        <div>
+            <label for="Name">Name</label>
+            <div>
+                <input type="text" />
+            </div>
+
+            <div>
+                <label for="title">Title</label>
+                <div>
+                    <input type="text" />
+                </div>
+
+                <div>
+                    <label for="Email">Email</label>
+                    <div>
+                        <input type="text" />
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone</label>
+                        <div>
+                            <input type="text" />
+                        </div>
+                        <div>
+                            <label for="Team">Team</label>
+                        </div>
+                        <div>
+                            <select name="team">
+                                <option value="Choose">Choose an option</option>
+                                <option value="Html">Html</option>
+                                <option value="Css">Css</option>
+                                <option value="Javascript">Javascript</option>
+                                <option value="C++">C++</option>
+                                <option value="Python">Python</option>
+                                <option value="SQL">SQL</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="attachment">Attachment</label>
+                        </div>
+                        <div>
+                            <input type="file" name="newupload" />
+                        </div>
+
+                        <div>
+                            <p>Your feedback</p>
+                            <textarea name="text" id="text" cols="30" rows="10">Leave a message</textarea>
+                        </div>
+
+                        <div>
+                           <footer> <h6>This is just a practical</h6></footer> 
+                        </div>
+</body>
+
+</html>
